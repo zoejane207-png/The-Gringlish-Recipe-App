@@ -26,7 +26,7 @@ import recipes
 
 
 @Composable
-fun HomeScreen(onRecipeClick: Int.Companion, modifier: Modifier = Modifier) {
+fun HomeScreen(onRecipeClick: (Int) -> Unit, modifier: Modifier = Modifier) {
     LazyColumn(
         modifier = modifier
             .fillMaxSize()
