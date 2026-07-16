@@ -18,6 +18,7 @@ import com.example.thegringlishrecipeapp.ui.theme.TheGringlishRecipeAppTheme
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.thegringlishrecipeapp.screens.RecipeScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -34,14 +35,25 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun App(modifier: Modifier = Modifier) {
+fun App() {
+    val navController = rememberNavController()
 
+    NavHost(navController = navController, startDestination = "home") {
+        composable(route = "home") {
+            HomeScreen(onRecipeClick = { index -> navController.navigate("recipe/$index") })
+        }
+        composable(route = "recipe/{index}") {
+            backStackEntry ->
+            val index = backStackEntry.arguments?.getString("index")?.toInt() ?: 0
+            RecipeScreen(recipeIndex = index)
+        }
+    }
 }
 
 @Preview(showBackground = true)
 @Composable
 fun AppPreview() {
     TheGringlishRecipeAppTheme {
-        HomeScreen(onRecipeClick = (Int))
+        App()
     }
 }
