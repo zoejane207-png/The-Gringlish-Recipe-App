@@ -18,7 +18,7 @@ val recipes = listOf(
         image = R.drawable.makaronia,
         stelometer = R.drawable.green_face,
         description = "Yiayia Zoe's makaronia me kima",
-        duration = "Depends...30-40mins",
+        duration = "40mins",
         portions = 4,
         ingredients = listOf(
             "1tbsp olive oil",
@@ -57,7 +57,7 @@ val recipes = listOf(
         image = R.drawable.kokkinisoupa,
         stelometer = R.drawable.green_face,
         description = "Yiayia's delicious MEAT soup with vegetables, beef, and orzo pasta, perfect for a nutritional pick-me-up",
-        duration = "1hr 30mins - more love, more time",
+        duration = "1hr 30mins",
         portions = 6,
         ingredients = listOf(
             "1kg diced beef shin",
