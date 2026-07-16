@@ -1,4 +1,6 @@
 package com.example.thegringlishrecipeapp
+import com.example.thegringlishrecipeapp.R
+
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

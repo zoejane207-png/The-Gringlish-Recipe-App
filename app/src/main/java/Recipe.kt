@@ -1,5 +1,6 @@
 import com.example.thegringlishrecipeapp.R
 
+
 data class Recipe (
     val name: String,
     val image: Int,
