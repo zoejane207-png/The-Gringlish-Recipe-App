@@ -4,6 +4,7 @@ import com.example.thegringlishrecipeapp.R
 data class Recipe (
     val name: String,
     val image: Int,
+    val stelometer: Int,
     val description: String,
     val duration: String,
     val portions: Int,
@@ -15,8 +16,9 @@ val recipes = listOf(
     Recipe(
         name = "Makaronia me kima",
         image = R.drawable.makaronia,
+        stelometer = R.drawable.green_face,
         description = "Yiayia Zoe's makaronia me kima",
-        duration = "Depends...",
+        duration = "Depends...30-40mins",
         portions = 4,
         ingredients = listOf(
             "1tbsp olive oil",
@@ -53,6 +55,7 @@ val recipes = listOf(
     Recipe(
         name = "Kokkini Soupa",
         image = R.drawable.kokkinisoupa,
+        stelometer = R.drawable.green_face,
         description = "Yiayia's delicious MEAT soup with vegetables, beef, and orzo pasta, perfect for a nutritional pick-me-up",
         duration = "1hr 30mins - more love, more time",
         portions = 6,
@@ -83,6 +86,29 @@ val recipes = listOf(
             "Add in the remaining ingredients and season to taste. Simmer on very low heat for at least an hour.",
             "Add in orzo. When orzo is cooked, it's time to serve!",
             "Serve with some nice bread and optionally some lemon juice. Kali oreksi!"
+        )
+    ),
+    Recipe(
+        name = "Baked Feta Filo",
+        image = R.drawable.feta,
+        stelometer = R.drawable.red_face,
+        description = "Crispy, sweet, and salty baked feta parcel is a classic Greek meze",
+        duration = "25mins",
+        portions = 2,
+        ingredients = listOf(
+            "1 block Greek feta",
+            "2 sheets filo pastry",
+            "1 tbsp melted unsalted butter",
+            "2 tbsp Greek honey",
+            "1 tsp sesame seeds",
+        ),
+        instructions = listOf(
+            "First, preheat the oven to 180c and line your baking tray with parchment paper. Gently pat the feta block dry with paper towel and place in the centre of the tray.",
+            "Layout 1 sheet of filo and brush with butter. Lay the second sheet on top and brush again with butter.",
+            "Now place the feta on top of the sheets in the centre and wrap it like a parcel. Brush entire outside with the rest of the butter.",
+            "Place the wrapped feta parcel seam side down onto the baking tray and bake on the middle rack of your oven for 15-20mins or until golden brown.",
+            "Transfer hot parcel onto serving plate and drizzle heavily with honey. Sprinkle with sesame seeds.",
+            "Serve while hot. Kali oreksi!"
         )
     )
 )
