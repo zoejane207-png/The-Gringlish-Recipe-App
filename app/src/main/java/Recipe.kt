@@ -16,7 +16,7 @@ val recipes = listOf(
     Recipe(
         name = "Makaronia me kima",
         image = R.drawable.makaronia,
-        stelometer = R.drawable.green_face,
+        stelometer = R.drawable.green_gordo,
         description = "Yiayia Zoe's makaronia me kima",
         duration = "40mins",
         portions = 4,
@@ -55,7 +55,7 @@ val recipes = listOf(
     Recipe(
         name = "Kokkini Soupa",
         image = R.drawable.kokkinisoupa,
-        stelometer = R.drawable.green_face,
+        stelometer = R.drawable.green_gordo,
         description = "Yiayia's delicious MEAT soup with vegetables, beef, and orzo pasta, perfect for a nutritional pick-me-up",
         duration = "1hr 30mins",
         portions = 6,
@@ -91,7 +91,7 @@ val recipes = listOf(
     Recipe(
         name = "Baked Feta Filo",
         image = R.drawable.feta,
-        stelometer = R.drawable.red_face,
+        stelometer = R.drawable.red_gordo,
         description = "Crispy, sweet, and salty baked feta parcel is a classic Greek meze",
         duration = "25mins",
         portions = 2,
@@ -114,7 +114,7 @@ val recipes = listOf(
     Recipe(
         name = "Aloo Gosht Lamb Curry",
         image = R.drawable.aloo_gosht,
-        stelometer = R.drawable.green_face,
+        stelometer = R.drawable.green_gordo,
         description = "A traditional Pakistani-style lamb and potato curry, slow-cooked until tender.",
         duration = "7hrs",
         portions = 4,
@@ -152,9 +152,9 @@ val recipes = listOf(
 
     ),
     Recipe(
-        name = "Greek Baked Cod with Tomato Sauce (Bakaliaros Plaki)",
+        name = "Bakaliaros Plaki",
         image = R.drawable.baked_cod,
-        stelometer = R.drawable.green_face,
+        stelometer = R.drawable.green_gordo,
         description = "Greek-style baked cod in a slow-cooked fresh tomato sauce.",
         duration = "1hr 30min",
         portions = 4,

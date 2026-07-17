@@ -30,6 +30,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.thegringlishrecipeapp.ui.theme.Nunito
 import com.example.thegringlishrecipeapp.ui.theme.Poppins
 import recipes
 
@@ -45,16 +46,19 @@ fun HomeScreen(onRecipeClick: (Int) -> Unit, modifier: Modifier = Modifier) {
         verticalArrangement = Arrangement.spacedBy(24.dp)
     ) {
         item {Image(
-            painter = painterResource(R.drawable.app_logo),
+            painter = painterResource(R.drawable.substitute_logo),
             contentDescription = "App logo",
             modifier = Modifier
         )}
-        item {
-            Text("\"Don\'t burn the butter!!!\"",
-                textAlign = TextAlign.Center,
-                color = colorResource(R.color.bright_orange),
-                modifier = Modifier.fillMaxWidth())
-        }
+//        item {
+//            Text("\"Don\'t burn the butter!!!\"",
+//                fontFamily = Poppins,
+//                fontWeight = FontWeight.Thin,
+//                fontSize = 12.sp,
+//                textAlign = TextAlign.Center,
+//                color = colorResource(R.color.bright_orange),
+//                modifier = Modifier.fillMaxWidth())
+//        }
         item {
             Text("Recipes",
                 fontFamily = Poppins,
@@ -98,10 +102,15 @@ fun HomeScreen(onRecipeClick: (Int) -> Unit, modifier: Modifier = Modifier) {
                     Spacer(Modifier.height(12.dp))
 
                     Text(recipe.name,
+                        fontFamily = Poppins,
+                        fontWeight = FontWeight.SemiBold,
+                        fontSize = 20.sp,
                         textAlign = TextAlign.Center,
                         color = colorResource(R.color.brown_black))
 
                     Text(recipe.description,
+                        fontFamily = Nunito,
+                        fontWeight = FontWeight.Normal,
                         textAlign = TextAlign.Center,
                         fontSize = 12.sp,
                         color = colorResource(R.color.brown_black),
