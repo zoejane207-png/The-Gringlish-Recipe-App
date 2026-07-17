@@ -28,7 +28,7 @@ fun RecipeScreen(recipeIndex: Int, modifier: Modifier = Modifier) {
         modifier = Modifier
             .fillMaxSize()
             .verticalScroll(rememberScrollState())
-            .padding(20.dp)
+            .padding(30.dp)
     ) {
         Text(
             recipe.name

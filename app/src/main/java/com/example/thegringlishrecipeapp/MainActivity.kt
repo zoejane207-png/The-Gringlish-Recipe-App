@@ -12,6 +12,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.thegringlishrecipeapp.screens.HomeScreen
 import com.example.thegringlishrecipeapp.ui.theme.TheGringlishRecipeAppTheme
@@ -26,7 +27,9 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             TheGringlishRecipeAppTheme {
-                Surface(modifier = Modifier.fillMaxSize()){
+                Surface(modifier = Modifier.fillMaxSize(),
+                    color = colorResource(R.color.off_white)
+                ){
                     App()
                 }
             }
