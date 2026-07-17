@@ -110,5 +110,81 @@ val recipes = listOf(
             "Transfer hot parcel onto serving plate and drizzle heavily with honey. Sprinkle with sesame seeds.",
             "Serve while hot. Kali oreksi!"
         )
+    ),
+    Recipe(
+        name = "Aloo Gosht Lamb Curry",
+        image = R.drawable.aloo_gosht,
+        stelometer = R.drawable.green_face,
+        description = "A traditional Pakistani-style lamb and potato curry, slow-cooked until tender.",
+        duration = "7hrs",
+        portions = 4,
+        ingredients = listOf(
+            "1/4 cup neutral oil (e.g. avocado)",
+            "1 tbsp ghee (or butter)",
+            "1-1.2 lb bone-in lamb or goat, ~2\" pieces",
+            "1 3/4 tsp kosher salt (divided)",
+            "6-7 garlic cloves, crushed",
+            "1 inch ginger, crushed",
+            "1 medium yellow onion, finely chopped",
+            "2 small tomatoes, puréed or finely chopped",
+            "1-2 green chillies, chopped",
+            "2 green cardamom pods",
+            "3 whole cloves",
+            "1/2 tsp cumin seeds",
+            "1.5-2 tsp coriander powder",
+            "1/2-1 tsp cumin powder",
+            "1/2 tsp red chilli powder",
+            "1/2 tsp turmeric",
+            "1/4 tsp black pepper",
+            "1 tbsp plain whole-milk yogurt, whisked",
+            "2 small russet potatoes, cubed",
+            "To garnish: 1/2 tsp garam masala",
+            "To garnish: 2 tbsp chopped cilantro"
+        ),
+        instructions = listOf(
+            "Heat the oil and ghee in a slow cooker on High. Add lamb and 3/4 tsp salt, stir until a bit the lamb gains a bit of colour.",
+            "Add garlic and ginger and stir in.",
+            "Add onion, tomatoes, green chilli, whole spices, ground spices (not garam masala) and remaining 1 tsp salt. Pour in 1 cup of water.",
+            "Cook on low/medium for ~6 hours, until the lamb is tender.",
+            "Stir in the yogurt, potatoes and 2 cups water, cook for about 1 hour until the potatoes are soft to your liking",
+            "Taste and adjust salt. Garnish with garam masala , rice and cilantro. Kali oreksi!"
+        )
+
+    ),
+    Recipe(
+        name = "Greek Baked Cod with Tomato Sauce (Bakaliaros Plaki)",
+        image = R.drawable.baked_cod,
+        stelometer = R.drawable.green_face,
+        description = "Greek-style baked cod in a slow-cooked fresh tomato sauce.",
+        duration = "1hr 30min",
+        portions = 4,
+        ingredients = listOf(
+            "For the sauce:",
+            "1/2 cup olive oil",
+            "2 cloves garlic, chopped",
+            "3 tbsp fresh parsley, chopped",
+            "2 lbs fresh tomatoes, peeled and sliced",
+            "1 tbsp fresh basil, chopped",
+            "1 tsp dried oregano",
+            "1 1/2 tsp salt",
+            "1/4 tsp pepper",
+            "For the cod:",
+            "2 lbs cod fillets (fresh or frozen)",
+            "1/3 cup olive oil",
+            "2 medium onions, chopped",
+            "3 tbsp fresh parsley, chopped",
+            "Flour, for coating",
+            "Salt and pepper, to taste"
+        ),
+        instructions = listOf(
+            "Make the sauce: heat 1/2 cup olive oil in a saucepan, add garlic and 3 tbsp parsley, cook slowly for 3 min.",
+            "Add the tomatoes, basil, oregano, salt and pepper. Cover and cook on very low heat ~45 min until thick.",
+            "Preheat oven to 350F (175C). Brush a large baking dish with olive oil.",
+            "Dice and de-skin the cod, coat in salt, pepper and flour.",
+            "Fry the cod in olive oil to get a coating and colour, then lay in the baking dish in a single layer.",
+            "Spread the onions over the fish, then the tomato sauce, then sprinkle with parsley.",
+            "Bake in the centre of the oven 20-30 min, until cooked through.",
+            "Serve with either rice or Greek style potatoes. Kali oreksi!"
+        )
     )
 )
