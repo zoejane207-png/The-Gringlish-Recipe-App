@@ -9,23 +9,22 @@ import androidx.compose.ui.unit.sp
 import com.example.thegringlishrecipeapp.R
 
 val Poppins = FontFamily(
-    Font(R.font.poppins_italic, FontWeight.Normal),
-    Font(R.font.poppins_extrabold, FontWeight.Bold),
+    Font(R.font.poppins_italic, FontWeight.Thin),
+    Font(R.font.poppins_extrabold, FontWeight.ExtraBold),
     Font(R.font.poppins_regular, FontWeight.Normal),
-    Font(R.font.poppins_semibolditalic, FontWeight.Bold),
     Font(R.font.poppins_bold, FontWeight.Bold),
-    Font(R.font.poppins_semibold, FontWeight.Bold)
+    Font(R.font.poppins_semibold, FontWeight.SemiBold)
 )
 
 val Nunito = FontFamily(
     Font(R.font.nunito_regular, FontWeight.Normal),
-    Font(R.font.nunito_semibold, FontWeight.Bold)
+    Font(R.font.nunito_semibold, FontWeight.SemiBold)
 )
 
 // Set of Material typography styles to start with
 val Typography = Typography(
     bodyLarge = TextStyle(
-        fontFamily = Poppins,
+        fontFamily = Nunito,
         fontWeight = FontWeight.Normal,
         fontSize = 16.sp,
         lineHeight = 24.sp,
